@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+   <title>TechBitz</title>
+  </head>
+  
+  <body
+  background="">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" align="right">
+        <a class="navbar-brand" href="#" <font color="##343434" size="10" face="AR JULIAN">TechBitz</a></font>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul></div>
+        <nav class="navbar navbar-light bg-dark" align-right>
+            <font class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #3e363f">Search</button></font>
+              
+              <style>
+    
+                .modal-overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #3e363f;
+                    z-index: 1;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+               
+                .modal-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color:#ffffff;
+                    padding: 20px;
+                    border: 2px solid #66fa04;
+                    border-radius: 5px;
+                }
+            </style>
+            <center>
+        
+        <button onclick="openLoginModal()" button class="btn btn-outline-success my-2 my-sm-0" type="submit" 
+        style="background-color: #3e363f">Login</button>
+        
+        
+        <div id="loginModal" class="modal-overlay">
+            <div class="modal-content">
+                <h2 >Login</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+        
+                    <input type="submit" style="background-color: rgb(255, 255, 255)" value="Login">
+                </form><br>
+                <button onclick="closeLoginModal()"  style="background-color: white" >Close</button>
+            </div>
+        </div>
+        
+        <script>
+        
+            function openLoginModal() {
+                document.getElementById('loginModal').style.display = 'block';
+            }
+        
+            function closeLoginModal() {
+                document.getElementById('loginModal').style.display = 'none';
+            }
+        </script>
+        </center>
+        </form>
+          </nav>
+     </nav>
+     <hr>
+     <center>
+    <table>
+        <th>
+     <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="RTX 3050.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><font color="#343434" size="5" face="AR JULIAN">MSI Gaming GeForce RTX 3050 8GB</h5></font>
+          <p class="card-text">High-Quality Graphic Cards for PC Gaming - top-tier graphics cards for gaming pc, designed to deliver exceptional performance and stunning visuals.</p>
+          <p class="price">₱14,995.00</p>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #3e363f">Buy Now</button>
+        </div>
+      </div>
+    </th>
+    <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="i5.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#343434" size="5" face="AR JULIAN">Intel Core i5-13600K</h5></font>
+             <p class="card-text">14 cores (6 P-cores + 8 E-cores) and 20 threads
+                Up to 5.1 GHz unlocked. 24M Cache
+                Integrated Intel UHD Graphics 770 included</p>
+             <p class="price">₱18,550.00</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #3e363f">Buy Now</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="m.2.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#343434" size="5" face="AR JULIAN">SAMSUNG 990 PRO SSD 2TB PCIe 4.0 M.2</h5></font>
+             <p class="card-text"> Experience up to 1400K/1550K IOPS, while sequential read/write speeds up to 7,450/6,900 MB/s reach near the max performance of PCIe 4.0*</p>
+             <p class="price"> ₱10,995</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #3e363f">Buy Now</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="ddr5.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#343434" size="5" face="AR JULIAN">CORSAIR VENGEANCE RGB DDR5 RAM 32GB (2x16GB) 5600MHz</h5></font>
+             <p class="card-text">Push the limits of your system like never before with CORSAIR DDR5 memory, unlocking even faster frequencies, greater capacities, and higher CPU processing.</p>
+             <p class="price">$74.99</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #3e363f">Buy Now</button>
+           </div>
+         </div>
+       </th>
+   
+    </table>
+</center>
+<hr>
+  </body>
